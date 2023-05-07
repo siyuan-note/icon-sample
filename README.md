@@ -25,6 +25,10 @@
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/icon-sample",
   "version": "0.0.1",
+  "displayName": {
+    "default": "Icon Sample",
+    "zh_CN": "图标示例"
+  },
   "description": {
     "default": "This is a icon sample",
     "zh_CN": "这是一个图标示例"
@@ -46,7 +50,6 @@
     ]
   }
 }
-
 ```
 
 * `name`: Icon name, must be the same as the repo name, and must be unique globally (no duplicate icon names in the
@@ -54,6 +57,9 @@
 * `author`: Icon author name
 * `url`: Icon repo URL
 * `version`: Icon version number, it is recommended to follow the [semver](https://semver.org/) specification
+* `displayName`: Widget display name, mainly used for display in the marketplace list, supports multiple languages
+    * `default`: Default language, must exist
+    * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
 * `description`: Icon description, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
