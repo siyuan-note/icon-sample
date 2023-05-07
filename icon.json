@@ -1,0 +1,26 @@
+{
+  "name": "icon-sample",
+  "author": "Vanessa",
+  "url": "https://github.com/siyuan-note/icon-sample",
+  "version": "0.0.1",
+  "description": {
+    "default": "This is a icon sample",
+    "zh_CN": "这是一个图标示例"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "i18n": [
+    "en_US",
+    "zh_CN"
+  ],
+  "funding": {
+    "openCollective": "b3log",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://ld246.com/sponsor"
+    ]
+  }
+}
