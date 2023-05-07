@@ -49,19 +49,19 @@
 
 ```
 
-* `name`: Theme name, must be the same as the repo name, and must be unique globally (no duplicate icon names in the
+* `name`: Icon name, must be the same as the repo name, and must be unique globally (no duplicate icon names in the
   marketplace)
-* `author`: Theme author name
-* `url`: Theme repo URL
-* `version`: Theme version number, it is recommended to follow the [semver](https://semver.org/) specification
-* `description`: Theme description, mainly used for display in the marketplace list, supports multiple languages
+* `author`: Icon author name
+* `url`: Icon repo URL
+* `version`: Icon version number, it is recommended to follow the [semver](https://semver.org/) specification
+* `description`: Icon description, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
 * `readme`: readme file name, mainly used to display in the marketplace details page, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
-* `i18n`: Theme supported language list
-* `funding`: Theme sponsorship information
+* `i18n`: Icon supported language list
+* `funding`: Icon sponsorship information
     * `openCollective`: Open Collective name
     * `patreon`: Patreon name
     * `github`: GitHub login name
