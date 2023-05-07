@@ -77,12 +77,12 @@
 
 * 生成 package.zip
 * 在 GitHub 上创建一个新的发布，使用图标版本号作为 “Tag
-  version”，示例 https://github.com/siyuan-note/plugin-sample/releases
+  version”，示例 https://github.com/siyuan-note/icon-sample/releases
 * 上传 package.zip 作为二进制附件
 * 提交发布
 
 如果是第一次发布版本，还需要创建一个 PR 到 [Community Bazaar](https://github.com/siyuan-note/bazaar) 社区集市仓库，修改该库的
-plugins.json。该文件是所有社区图标库的索引，格式为：
+icons.json。该文件是所有社区图标库的索引，格式为：
 
 ```json
 {
