@@ -25,6 +25,7 @@
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/icon-sample",
   "version": "0.0.1",
+  "minAppVersion": "2.9.0",
   "displayName": {
     "default": "Icon Sample",
     "zh_CN": "图标示例"
@@ -57,6 +58,7 @@
 * `author`: Icon author name
 * `url`: Icon repo URL
 * `version`: Icon version number, it is recommended to follow the [semver](https://semver.org/) specification
+* `minAppVersion`: Minimum version number of SiYuan that supports this icon
 * `displayName`: Widget display name, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
     * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
