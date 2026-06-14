@@ -2,19 +2,19 @@
   "name": "icon-sample",
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/icon-sample",
-  "version": "0.0.3",
-  "minAppVersion": "2.8.8",
+  "version": "0.0.4",
+  "minAppVersion": "3.7.0",
   "displayName": {
     "default": "Icon Sample",
-    "zh_CN": "图标示例"
+    "zh-CN": "图标示例"
   },
   "description": {
     "default": "This is a icon sample",
-    "zh_CN": "这是一个图标示例"
+    "zh-CN": "这是一个图标示例"
   },
   "readme": {
     "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh-CN": "README_zh-CN.md"
   },
   "funding": {
     "openCollective": "",

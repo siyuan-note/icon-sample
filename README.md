@@ -1,4 +1,4 @@
-[中文](https://github.com/siyuan-note/icon-sample/blob/main/README_zh_CN.md)
+[中文](https://github.com/siyuan-note/icon-sample/blob/main/README_zh-CN.md)
 
 # SiYuan icon sample
 
@@ -24,19 +24,19 @@
   "name": "icon-sample",
   "author": "Vanessa",
   "url": "https://github.com/siyuan-note/icon-sample",
-  "version": "0.0.3",
-  "minAppVersion": "2.8.8",
+  "version": "0.0.4",
+  "minAppVersion": "3.7.0",
   "displayName": {
     "default": "Icon Sample",
-    "zh_CN": "图标示例"
+    "zh-CN": "图标示例"
   },
   "description": {
     "default": "This is a icon sample",
-    "zh_CN": "这是一个图标示例"
+    "zh-CN": "这是一个图标示例"
   },
   "readme": {
     "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh-CN": "README_zh-CN.md"
   },
   "funding": {
     "openCollective": "",
@@ -60,13 +60,13 @@
 * `minAppVersion`: Minimum version number of SiYuan that supports this icon
 * `displayName`: Widget display name, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
-    * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
+    * `zh-CN`, `en` and other languages: optional, must be [BCP 47](https://tools.ietf.org/html/bcp47) tags (e.g. `zh-CN`, `zh-TW`, `en`, `ja`, `pt-BR`)
 * `description`: Icon description, mainly used for display in the marketplace list, supports multiple languages
     * `default`: Default language, must exist
-    * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
+    * `zh-CN`, `en` and other languages: optional, must be BCP 47 tags
 * `readme`: readme file name, mainly used to display in the marketplace details page, supports multiple languages
     * `default`: Default language, must exist
-    * `zh_CN`, `en_US` and other languages: optional, it is recommended to provide at least Chinese and English
+    * `zh-CN`, `en` and other languages: optional, must be BCP 47 tags
 * `funding`: Icon sponsorship information
     * `openCollective`: Open Collective name
     * `patreon`: Patreon name
