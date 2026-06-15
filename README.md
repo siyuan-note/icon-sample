@@ -1,4 +1,4 @@
-[中文](https://github.com/siyuan-note/icon-sample/blob/main/README_zh-CN.md)
+[中文](https://github.com/siyuan-note/icon-sample/blob/main/README.zh-CN.md)
 
 # SiYuan icon sample
 
@@ -36,7 +36,7 @@
   },
   "readme": {
     "default": "README.md",
-    "zh-CN": "README_zh-CN.md"
+    "zh-CN": "README.zh-CN.md"
   },
   "funding": {
     "openCollective": "",
