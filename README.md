@@ -6,8 +6,9 @@
 
 * Make a copy of this repo as a template with the <kbd>Use this template</kbd> button, please note that the repo name
   must be the same as the icon name, the default branch must be `main`
-* Clone your repo to a local development folder. For convenience, you can place this folder in
-  your `{workspace}/conf/appearance/icons/` folder
+* Clone your repo to a local development folder. For convenience, you can place this folder in your `{workspace}/data/icons/` folder
+
+Icon files, updates, and uninstallations are shared by SiYuan data sync; each device keeps its own icon selection. Older clients can continue syncing notes without upgrading and transport internal package archives as ordinary files. Clients that support this feature apply icon package changes; older clients do not use the new icon directory. Upgrade migration preserves the original local files for recovery. Development changes inside this folder also sync; keep experiments outside the workspace or exclude the whole icon folder from sync.
 
 ## Development
 
